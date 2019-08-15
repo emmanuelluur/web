@@ -11,6 +11,7 @@ white: #FaFaFF
 $montserat: "Montserrat Alternates", sans-serif;
 $target-width: 900px;
 $primary: #22a1f0;
+$lprimary: #1570a8;
 $black: #011627;
 $white: #fafaff;
 /**************
@@ -35,39 +36,32 @@ h6 {
 .section-heading {
   text-align: center !important;
 }
-
-.about-nav i {
-  font-size: 1.5rem;
-}
-
+/**********
+nav
+*/
 .navbar-brand {
-  font-size: 1.5rem !important;
+  font-size: 2rem;
+  color: $white !important;
 }
-
 .navbar {
   background-color: $black !important;
 }
-.navbar .nav-link,
-.navbar-brand,
-i {
-  color: rgb(216, 212, 212) !important;
-}
 
-.navbar .nav-link:hover,
-i:hover {
+.navigation  .nav-item,  i {
   color: $white !important;
 }
-
-.navbar-brand:hover {
-  color: $white !important;
+.navigation  .nav-item:hover,  i:hover {
+  color: #eee !important;
 }
 
-.about-nav i {
+.social i {
+  font-size: 2.5rem;
+  color: $lprimary !important;
+}
+.social i:hover {
   color: $primary !important;
 }
-.about-nav:hover i {
-  color: rgb(21, 112, 168) !important;
-}
+/*******/
 .heading-line {
   height: 3px;
   width: 10%;
@@ -82,6 +76,7 @@ i:hover {
   color: $primary !important;
   font-size: 3rem !important;
 }
+
 
 /************
 Inputs

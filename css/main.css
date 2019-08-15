@@ -1,1 +1,162 @@
-body{font-family:"Montserrat Alternates",sans-serif;font-weight:400}h1,h2,h3{font-weight:900}h4.h5,h6{font-weight:700}.section-heading{text-align:center !important}.about-nav i{font-size:1.5rem}.navbar-brand{font-size:1.5rem !important}.navbar{background-color:#011627 !important}.navbar .nav-link,.navbar-brand,i{color:#d8d4d4 !important}.navbar .nav-link:hover,i:hover{color:#fafaff !important}.navbar-brand:hover{color:#fafaff !important}.about-nav i{color:#22a1f0 !important}.about-nav:hover i{color:#1570a8 !important}.heading-line{height:3px;width:10%;background-color:#22a1f0 !important}.footer{background-color:#011627 !important;color:#fafaff !important}.skills i{color:#22a1f0 !important;font-size:3rem !important}input[Type="text"],input[Type="password"],input[Type="datetime"],input[Type="date"],input[Type="email"],select,textarea{border-color:#22a1f0 !important;border-radius:0% !important;padding:20px !important}input[Type="text"]:focus,input[Type="password"]:focus,input[Type="datetime"]:focus,input[Type="date"]:focus,input[Type="email"]:focus,select:focus,textarea:focus{box-shadow:0 1px 1px rgba(0,0,0,0.075) inset,0 0 4px #22a1f0 !important}.btn-outline-primary{background-color:transparent !important;border-color:#011627 !important;color:#011627 !important;border-radius:0 !important;position:relative}.btn-outline-primary::before{content:"";position:absolute;background-color:#22a1f0;top:0;left:0;height:100%;width:0%;z-index:-1;transition:0.7s}.btn-outline-primary:hover::before{width:100%}@media (max-width: 900px){body{text-align:center}.img-fluid{height:250px;width:250px}.navbar .nav-item{display:block;width:100%;padding:10px 0px;text-align:center}}.dark i{font-size:3rem;width:80px;height:80px;border:1px solid #22a1f0;line-height:70px;margin-bottom:30px;border-radius:50%;transition:0.3s;color:#22a1f0 !important}.dark{background-color:#011627 !important;color:#fafaff !important}
+/****************
+Main sass
+primary: #22A1F0
+black: #011627
+white: #FaFaFF
+*****************/
+/*****************************
+*       variables            *
+*****************************/
+/**************
+    Styles
+***************/
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+h4.h5,
+h6 {
+  font-weight: 700;
+}
+
+.section-heading {
+  text-align: center !important;
+}
+
+/**********
+nav
+*/
+.navbar-brand {
+  font-size: 2rem;
+  color: #fafaff !important;
+}
+
+.navbar {
+  background-color: #011627 !important;
+}
+
+.navigation .nav-item, i {
+  color: #fafaff !important;
+}
+
+.navigation .nav-item:hover, i:hover {
+  color: #eee !important;
+}
+
+.social i {
+  font-size: 2.5rem;
+  color: #1570a8 !important;
+}
+
+.social i:hover {
+  color: #22a1f0 !important;
+}
+
+/*******/
+.heading-line {
+  height: 3px;
+  width: 10%;
+  background-color: #22a1f0 !important;
+}
+
+.footer {
+  background-color: #011627 !important;
+  color: #fafaff !important;
+}
+
+.skills i {
+  color: #22a1f0 !important;
+  font-size: 3rem !important;
+}
+
+/************
+Inputs
+************/
+input[Type="text"],
+input[Type="password"],
+input[Type="datetime"],
+input[Type="date"],
+input[Type="email"],
+select,
+textarea {
+  border-color: #22a1f0 !important;
+  border-radius: 0% !important;
+  padding: 20px !important;
+}
+
+input[Type="text"]:focus,
+input[Type="password"]:focus,
+input[Type="datetime"]:focus,
+input[Type="date"]:focus,
+input[Type="email"]:focus,
+select:focus,
+textarea:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px #22a1f0 !important;
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  border-color: #011627 !important;
+  color: #011627 !important;
+  border-radius: 0 !important;
+  position: relative;
+}
+
+.btn-outline-primary::before {
+  content: "";
+  position: absolute;
+  background-color: #22a1f0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  transition: 0.7s;
+}
+
+.btn-outline-primary:hover::before {
+  width: 100%;
+}
+
+/*************************
+  Responsive mobile
+  *************************/
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  .img-fluid {
+    height: 250px;
+    width: 250px;
+  }
+  .navbar .nav-item {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+  }
+}
+
+.dark i {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #22a1f0;
+  line-height: 70px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  transition: 0.3s;
+  color: #22a1f0 !important;
+}
+
+.dark {
+  background-color: #011627 !important;
+  color: #fafaff !important;
+}
